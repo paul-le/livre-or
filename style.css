@@ -1,0 +1,208 @@
+body{
+    margin:0;
+    background-image: url("images/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: arial;
+}
+
+#bodycommentaire{
+}
+
+header{
+    border: 2px solid black;
+    background-color:#FFDE95;
+    margin:0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:fixed;
+    width: 100%;
+}
+
+.headerhover a:link{
+    text-decoration: none;
+    color:black;
+}
+
+.headerhover a:visited{
+    text-decoration:none;
+    color:black;
+}
+
+.headerhover a:active{
+    text-decoration: none;
+    color:black;
+}
+
+.headerhover a:hover{
+    background-color:#FFF0BA;
+    padding:19px 10px;
+    border:1.5px solid black;
+}
+
+nav{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-family: Arial;
+    align-items: center;
+    margin:0;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+}
+
+#bienvenue{
+    font-family: Arial;
+    font-size: 40px;
+}
+
+#decobutton{
+    style="display: none;";
+    border:0;
+    background-color:#FFDE95;
+    font-size: 16.5px;
+    /*border-bottom:2px solid black;
+    border-top:2px solid black;*/
+}
+
+#decobutton:hover{
+    background-color: #FFF0BA;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding:19px 6px;
+}
+
+#mainconnexion{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+#connexionform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;  
+    height: 784px;
+}
+
+/*#livredormain{
+    overflow:hidden;
+    padding-right: 15px;
+}*/
+
+#connexionform2{
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:5%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 100%;
+    width: 35%;
+
+}
+
+#connexionform3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#connexionform4{
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    width: 35%;
+    flex-wrap: wrap;
+}
+
+/*#forminscriptionsection{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}*/
+
+/*#forminscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    justify-content: center;
+    
+}*/
+
+#listcom{
+    border:2px solid black;
+    padding: 15px;
+    max-width: 200px;
+    margin: 15px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#separation{
+    border-bottom: 2px solid black;
+}
+
+textarea{
+    resize: none;
+    padding: 5%;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#inputco{
+    border-radius: 25px 25px 25px 25px;
+    padding:1.5%;
+}
+
+.homebutton2{
+    width: 25%;
+    height: 50%;
+    padding-top:10%;
+}
+
+.homebutton2:hover{
+    transition: all .5s ease-in-out;
+}
+.homebutton2:hover{
+    transform: scale(0.8);
+}
+
+input{
+    border-radius:25px 25px 25px 25px;
+    padding:5%;
+}
+
+footer{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background-color:#FFDE95;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:2%;
+    height: 72px;
+}
